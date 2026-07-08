@@ -39,11 +39,20 @@ except ImportError:
 # Module-level ChromaDB state — ephemeral in-memory client
 # ---------------------------------------------------------------------------
 
-_chroma_client = chromadb.Client()  # in-memory, no persistence needed
-_embedding_fn = embedding_functions.DefaultEmbeddingFunction()
+_chroma_client = None  # lazy-initialized to avoid blocking startup
+_embedding_fn = None
 _collection = None  # set by initialize_chromadb on first call
 
 COLLECTION_NAME = "nepali_finance_transactions"
+
+
+def _get_chroma_client():
+    """Lazy-initialize ChromaDB client to avoid blocking app startup."""
+    global _chroma_client, _embedding_fn
+    if _chroma_client is None:
+        _chroma_client = chromadb.Client()  # in-memory, no persistence needed
+        _embedding_fn = embedding_functions.DefaultEmbeddingFunction()
+    return _chroma_client
 
 # ---------------------------------------------------------------------------
 # Financial-advice detection keywords (requirement 19.4)
@@ -96,13 +105,16 @@ def initialize_chromadb(transactions: list[dict]) -> None:
     """
     global _collection
 
+    # Initialize client if needed
+    client = _get_chroma_client()
+
     # Drop existing collection so we start clean each time
     try:
-        _chroma_client.delete_collection(COLLECTION_NAME)
+        client.delete_collection(COLLECTION_NAME)
     except Exception:
         pass  # collection may not exist on first run
 
-    _collection = _chroma_client.create_collection(
+    _collection = client.create_collection(
         name=COLLECTION_NAME,
         embedding_function=_embedding_fn,
     )
