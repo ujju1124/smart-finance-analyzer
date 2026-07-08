@@ -71,15 +71,28 @@ _FINANCIAL_ADVICE_KEYWORDS = {
     "portfolio",
     "stocks",
     "savings advice",
+    "save money",
+    "how can i save",
+    "how to save",
+    "what should i",
+    "suggest",
+    "suggestion",
+    "tips for",
 }
 
 # System prompt for RAG chat — strictly grounded in retrieved data
 _RAG_SYSTEM_PROMPT = (
-    "You are a personal finance assistant that ONLY answers questions about "
-    "the user's transaction data. "
+    "You are a personal finance data assistant that ONLY describes patterns in "
+    "the user's past transaction data. "
+    "\n\n"
+    "CRITICAL RULES:\n"
+    "- You MUST NOT give advice, suggestions, or recommendations\n"
+    "- You MUST NOT tell users what they 'should' or 'could' do\n"
+    "- You ONLY describe what happened in their past transactions\n"
+    "- If asked for advice (save money, budget, invest, etc.), respond: "
+    "'I can only describe patterns in your past transactions, not provide financial advice'\n"
+    "\n\n"
     "Answer based strictly on the provided transaction context. "
-    "Do not provide financial advice, investment recommendations, or tax strategies. "
-    "If the context doesn't contain enough information, say so clearly. "
     "Be specific and cite amounts and dates when available."
 )
 
