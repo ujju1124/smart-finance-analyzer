@@ -1,0 +1,167 @@
+/* ApiKeyPrompt.css */
+
+.api-key-prompt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.api-key-prompt__backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.api-key-prompt__card {
+  position: relative;
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.api-key-prompt__title {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: #1a1a1a;
+}
+
+.api-key-prompt__description {
+  margin: 0 0 1.5rem 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.api-key-prompt__form {
+  margin-bottom: 1rem;
+}
+
+.api-key-prompt__input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', monospace;
+  transition: border-color 0.2s;
+}
+
+.api-key-prompt__input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.api-key-prompt__input:disabled {
+  background: #f5f5f5;
+  cursor: not-allowed;
+}
+
+.api-key-prompt__actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.api-key-prompt__btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.api-key-prompt__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.api-key-prompt__btn--primary {
+  background: #4CAF50;
+  color: white;
+}
+
+.api-key-prompt__btn--primary:hover:not(:disabled) {
+  background: #45a049;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.api-key-prompt__btn--secondary {
+  background: #f5f5f5;
+  color: #555;
+}
+
+.api-key-prompt__btn--secondary:hover:not(:disabled) {
+  background: #e0e0e0;
+}
+
+.api-key-prompt__help {
+  margin: 1rem 0 0.5rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+
+.api-key-prompt__link {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.api-key-prompt__link:hover {
+  text-decoration: underline;
+}
+
+.api-key-prompt__privacy {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.85rem;
+  color: #888;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .api-key-prompt__card {
+    padding: 1.5rem;
+  }
+
+  .api-key-prompt__title {
+    font-size: 1.25rem;
+  }
+
+  .api-key-prompt__actions {
+    flex-direction: column;
+  }
+
+  .api-key-prompt__btn {
+    width: 100%;
+  }
+}

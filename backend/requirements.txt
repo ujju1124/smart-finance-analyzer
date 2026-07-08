@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+pandas
+pdfplumber
+chromadb
+groq
+hypothesis
+pytest
+python-dotenv

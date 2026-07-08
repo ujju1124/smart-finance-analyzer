@@ -1,0 +1,91 @@
+{
+  "patterns": [
+    {
+      "comment": "HIGH PRIORITY: Salary/Income detection - MUST be credit direction",
+      "keywords": ["salary", "payroll", "stipend", "wage", "earning"],
+      "category": "Income & Salary",
+      "direction": "credit"
+    },
+    {
+      "keywords": ["atm withdrawal", "cash withdrawal", "wd:"],
+      "category": "Cash Withdrawal"
+    },
+    {
+      "keywords": ["asba", "c-asba", "ipo", "casba allot", "c asba", "allot of ipo"],
+      "category": "Investment"
+    },
+    {
+      "keywords": ["wtax", "tax.pd", "int.pd", "interest payment", "interest paid", "fee", "charge", "commission"],
+      "category": "Bank Fees & Charges"
+    },
+    {
+      "keywords": ["mobile payment", "mpay mob", "mob,", "mpay 9"],
+      "category": "Digital Wallet & Transfers"
+    },
+    {
+      "keywords": [",per ", "per per", "perr", "perry", "per ry dairy"],
+      "category": "Food & Dining"
+    },
+    {
+      "keywords": [
+        "cafe", "coffee", "chiya", "tea", "restaurant", "momo", "khaja", 
+        "khwjw", "dine", "food", "dairy", "pizza", "burger", "bistro", 
+        "hotel", "bakery", "dud", "dudh", "kfc", "nanglo",
+        "kitchen", "grill", "eatery", "bites", "snacks", "beans", "catero"
+      ],
+      "category": "Food & Dining"
+    },
+    {
+      "keywords": ["bhatbhateni", "big mart", "saleways", "mart", "supermarket", "grocery"],
+      "category": "Groceries"
+    },
+    {
+      "keywords": ["daraz", "sastodeal", "hamro bazar", "laptop", "electronics", "mobile phone", "smartphone", "gadget", "fashion", "cloth", "luga", "wear", "store", "boutique", "shoes", "footwear"],
+      "category": "Shopping"
+    },
+    {
+      "keywords": ["foodmandu", "bhoji", "tootle food"],
+      "category": "Food & Dining"
+    },
+    {
+      "keywords": ["pathao", "tootle", "indrive", "uber", "sajha yatayat"],
+      "category": "Transport"
+    },
+    {
+      "keywords": ["ntc", "ncell", "nepal telecom", "smart telecom", "nea", "nepal electricity", "khanepani", "water supply", "hydropower", "power development"],
+      "category": "Utilities"
+    },
+    {
+      "keywords": ["pharmacy", "hospital", "clinic", "medical", "doctor", "health"],
+      "category": "Healthcare"
+    },
+    {
+      "keywords": ["salon", "spa", "beauty", "barber", "kapal", "hair", "parlour"],
+      "category": "Personal Care"
+    },
+    {
+      "keywords": ["school", "college", "university", "tuition", "education", "academy", "institute"],
+      "category": "Education"
+    },
+    {
+      "keywords": ["rent", "house", "apartment", "bhada", "housing"],
+      "category": "Housing"
+    },
+    {
+      "keywords": ["ibft", "fon:ibft", "accountft", "neft", "bank transfer"],
+      "category": "Bank Transfer"
+    },
+    {
+      "keywords": ["esewa load"],
+      "category": "Digital Wallet & Transfers"
+    },
+    {
+      "keywords": ["khalti"],
+      "category": "Digital Wallet & Transfers"
+    },
+    {
+      "keywords": ["bnpka", "narbnpka", "evblnpka", "siddnpka", "kmblnpka"],
+      "category": "Bank Fees & Charges"
+    }
+  ]
+}

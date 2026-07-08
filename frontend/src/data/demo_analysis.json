@@ -1,0 +1,2863 @@
+{
+  "is_demo": true,
+  "metadata": {
+    "account_holder": "RAM BAHADUR SHRESTHA",
+    "account_number": "XXXX XXXX XXXX 7766",
+    "date_range": "2026-04-01 to 2026-06-30",
+    "total_transactions": 99,
+    "generated_note": "AI-generated demo data for illustration only. This is a fictional account created to demonstrate the analyzer's capabilities across realistic spending categories and patterns."
+  },
+  "summary": {
+    "date_range": "2026-04-01 to 2026-06-30",
+    "total_transactions": 99,
+    "total_debits": 94,
+    "total_credits": 5,
+    "total_spending": 99076.5,
+    "total_income": 136032.5,
+    "largest_expense": {
+      "amount": 10000.0,
+      "merchant": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+      "date": "2026-05-15",
+      "category": "Investment"
+    },
+    "largest_income": {
+      "amount": 45000.0,
+      "merchant": "Bank Transfer",
+      "date": "2026-06-01",
+      "category": "Income & Salary"
+    },
+    "top_categories": [
+      {
+        "category": "Digital Wallet & Transfers",
+        "amount": 23050.0
+      },
+      {
+        "category": "Shopping",
+        "amount": 19200.0
+      },
+      {
+        "category": "Healthcare",
+        "amount": 17650.0
+      }
+    ],
+    "day_of_week_distribution": {}
+  },
+  "transactions": [
+    {
+      "transaction_id": "615096e9-635c-49be-857a-4b6a117c0056",
+      "date": "2026-06-30",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000024OpQr,FRIENDS VISION HOSPITALITY,khana",
+      "merchant_normalized": "FRIENDS VISION HOSPITALITY",
+      "amount": 5200.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 39175.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "bad7211c-6efb-4fd4-b3b8-894da18f16c4",
+      "date": "2026-06-29",
+      "time": null,
+      "description_raw": "eSewa Load 9851234567, 243000006",
+      "merchant_normalized": "eSewa",
+      "amount": 2500.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 44375.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "74f6b0bd-d90c-4853-97dc-3b611d6210a2",
+      "date": "2026-06-28",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000023KlMn,KALPANA CHIYA PASAL,chiya",
+      "merchant_normalized": "KALPANA CHIYA PASAL",
+      "amount": 180.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 46875.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "0e3d891f-b544-4e4c-8c62-dbac2b86688d",
+      "date": "2026-06-27",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000022GhIj,UPENDRA JADALI,khaja",
+      "merchant_normalized": "UPENDRA JADALI",
+      "amount": 550.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 47055.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "26fa7027-8c29-4499-82c8-392e0dc0f592",
+      "date": "2026-06-26",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000021CdEf,BHATBHATENI SUPERMARKET,grocery",
+      "merchant_normalized": "BHATBHATENI SUPERMARKET",
+      "amount": 3800.0,
+      "direction": "debit",
+      "category": "Groceries",
+      "balance_after": 47605.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "f5a1f1e7-331c-42fe-8b00-67b3989c0aa1",
+      "date": "2026-06-25",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000020YzAb,EKANTA SALON,kapal",
+      "merchant_normalized": "EKANTA SALON",
+      "amount": 480.0,
+      "direction": "debit",
+      "category": "Personal Care",
+      "balance_after": 51405.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "48cb357c-9e65-4f04-971b-3c328793cfd6",
+      "date": "2026-06-24",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000019UvWx,HIMALAYAN JAVA COFFEE,coffee",
+      "merchant_normalized": "HIMALAYAN JAVA COFFEE",
+      "amount": 380.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 51885.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "154b98bf-94fd-4fd5-95fd-5a99a4de6fa0",
+      "date": "2026-06-23",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000018QrSt,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 52265.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "a1cd4dcf-e02d-4c86-b09f-44ac00283163",
+      "date": "2026-06-22",
+      "time": null,
+      "description_raw": "eSewa Load 9840077890, 243000005",
+      "merchant_normalized": "eSewa",
+      "amount": 2000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 52415.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "14d79e77-b157-4f2a-b427-517bb35a9a35",
+      "date": "2026-06-21",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000017MnOp,BUBA MUMA FANCY STORE,luga",
+      "merchant_normalized": "BUBA MUMA FANCY STORE",
+      "amount": 1900.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 54415.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "4bace006-2d0c-4f35-9c9b-8ab863a0d03f",
+      "date": "2026-06-20",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000016IjKl,R.B FASHION,luga",
+      "merchant_normalized": "R.B FASHION",
+      "amount": 2800.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 56315.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "173d3d40-0ffe-4e02-8c92-118280658e34",
+      "date": "2026-06-19",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000015EfGh,PEACE SPORTS HOUSE,luga",
+      "merchant_normalized": "PEACE SPORTS HOUSE",
+      "amount": 4500.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 59115.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "3fff03f2-4562-4844-829f-8da0f82cacc0",
+      "date": "2026-06-18",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000014AbCd,EVEREST MOMO CENTRE,momo",
+      "merchant_normalized": "EVEREST MOMO CENTRE",
+      "amount": 420.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 63615.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "f382fb57-79be-41c2-8046-365489d7a9ac",
+      "date": "2026-06-17",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000013WxYz,CHIYA GUFF,chiya",
+      "merchant_normalized": "CHIYA GUFF",
+      "amount": 130.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 64035.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "c1612017-eb32-4b42-a77a-ed9850222a44",
+      "date": "2026-06-16",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000012StUv,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 64165.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "0f3f664d-3cbe-47a9-a563-472ab2dafc0d",
+      "date": "2026-06-15",
+      "time": null,
+      "description_raw": "eSewa Load 9841567890, 243000004",
+      "merchant_normalized": "eSewa",
+      "amount": 3000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 64315.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "87d5cc54-64f8-47bf-a6bc-9691c945cf67",
+      "date": "2026-06-14",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000011OpQr,SUSHIL KARKI,khaja",
+      "merchant_normalized": "SUSHIL KARKI",
+      "amount": 200.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 67315.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "681b3ea0-55f1-4b65-839a-59922429bbad",
+      "date": "2026-06-13",
+      "time": null,
+      "description_raw": "C-ASBA Fee - IPO - MOUNT EVEREST POWER DEVELOPMENT",
+      "merchant_normalized": "MOUNT EVEREST POWER DEVELOPMENT",
+      "amount": 5.0,
+      "direction": "debit",
+      "category": "Investment",
+      "balance_after": 67515.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "94b007d1-6ae7-4a5e-97cf-7de38026b563",
+      "date": "2026-06-12",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000010KlMn,DHARASH PHARMACY,medicine",
+      "merchant_normalized": "DHARASH PHARMACY",
+      "amount": 820.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 67520.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "549ea095-a7f5-4509-9a96-8f75988f0e4a",
+      "date": "2026-06-11",
+      "time": null,
+      "description_raw": "MPAY 9865123456,MOB,243000003",
+      "merchant_normalized": "Mobile Payment",
+      "amount": 50.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 68340.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "14247351-6eb1-4c9e-aea9-d1a9d232cd49",
+      "date": "2026-06-10",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000009GhIj,HIMALAYAN JAVA COFFEE,coffee",
+      "merchant_normalized": "HIMALAYAN JAVA COFFEE",
+      "amount": 360.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 68390.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "a49439f7-e24e-4eb3-86f0-4729137b1ad8",
+      "date": "2026-06-09",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000008CdEf,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 68750.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "5a35d7ff-7f90-4fd3-9706-7716476b1575",
+      "date": "2026-06-08",
+      "time": null,
+      "description_raw": "eSewa Load 9808012345, 243000002",
+      "merchant_normalized": "eSewa",
+      "amount": 2000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 68900.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "bf54460a-44f8-447d-b874-3cd233309cc1",
+      "date": "2026-06-07",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000007YzAb,FRIENDS VISION HOSPITALITY,khana",
+      "merchant_normalized": "FRIENDS VISION HOSPITALITY",
+      "amount": 4200.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 70900.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "585fe6b8-5e8b-4c3b-909d-0bd350734afb",
+      "date": "2026-06-06",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000006UvWx,ONE PIECE STICKFOOD,khaja",
+      "merchant_normalized": "ONE PIECE STICKFOOD",
+      "amount": 560.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 75100.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "4ad9a94a-6282-4032-a899-b46a10e77db9",
+      "date": "2026-06-06",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000005QrSt,BHATBHATENI SUPERMARKET,grocery",
+      "merchant_normalized": "BHATBHATENI SUPERMARKET",
+      "amount": 3400.0,
+      "direction": "debit",
+      "category": "Groceries",
+      "balance_after": 75660.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "a08e60bc-5f3d-48bc-95b9-345fe73e341e",
+      "date": "2026-06-05",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000004MnOp,CHIYA CREW CAFE,chiya",
+      "merchant_normalized": "CHIYA CREW CAFE",
+      "amount": 240.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 79060.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "161ae627-9514-45d2-9dc5-d4cf6f280f7b",
+      "date": "2026-06-04",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000003IjKl,NEW OM VEG MOMO,momo",
+      "merchant_normalized": "NEW OM VEG MOMO",
+      "amount": 310.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 79300.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "96fe2a5f-0d57-41e7-858f-5350f904222d",
+      "date": "2026-06-03",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000002EfGh,CAFE CATERO,chiya",
+      "merchant_normalized": "CAFE CATERO",
+      "amount": 220.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 79610.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "4cbb54f4-780f-420e-9731-9d0bd825a5f7",
+      "date": "2026-06-02",
+      "time": null,
+      "description_raw": "MPAY FPQR,32000001AbCd,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 79830.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "27719ee9-b6b2-4be2-a7a3-ba4f300af5a2",
+      "date": "2026-06-02",
+      "time": null,
+      "description_raw": "eSewa Load 9801234567, 243000001",
+      "merchant_normalized": "eSewa",
+      "amount": 1000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 79980.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "c3838f32-d40b-459e-a8ec-d87586b35764",
+      "date": "2026-06-01",
+      "time": null,
+      "description_raw": "FON:IBFT:SALARY:NARBNPKA:TECH COMPANY PVT LTD",
+      "merchant_normalized": "Bank Transfer",
+      "amount": 45000.0,
+      "direction": "credit",
+      "category": "Income & Salary",
+      "balance_after": 80980.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "ae9f0066-8af5-4fd0-b7f8-01aa5feeefa4",
+      "date": "2026-05-31",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000022GhIj,EKANTA SALON,kapal",
+      "merchant_normalized": "EKANTA SALON",
+      "amount": 500.0,
+      "direction": "debit",
+      "category": "Personal Care",
+      "balance_after": 35980.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "9431ab0f-6711-4f68-84a8-2897b7ce7da4",
+      "date": "2026-05-30",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000021CdEf,BHATBHATENI SUPERMARKET,grocery",
+      "merchant_normalized": "BHATBHATENI SUPERMARKET",
+      "amount": 2600.0,
+      "direction": "debit",
+      "category": "Groceries",
+      "balance_after": 36480.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "ae3804ae-1134-4d6b-a46a-1fceb540f611",
+      "date": "2026-05-29",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000020YzAb,HIMALAYAN JAVA COFFEE,coffee",
+      "merchant_normalized": "HIMALAYAN JAVA COFFEE",
+      "amount": 340.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 39080.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "1668013e-c215-42c9-be23-5a40be0514da",
+      "date": "2026-05-28",
+      "time": null,
+      "description_raw": "C-ASBA Fee - IPO - SNOW RIVERS LIMITED",
+      "merchant_normalized": "SNOW RIVERS LIMITED",
+      "amount": 5.0,
+      "direction": "debit",
+      "category": "Investment",
+      "balance_after": 39420.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "603204c4-9b42-4a4b-bf9a-1ef0057782c8",
+      "date": "2026-05-27",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000019UvWx,KALPANA CHIYA PASAL,chiya",
+      "merchant_normalized": "KALPANA CHIYA PASAL",
+      "amount": 160.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 39425.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "dc7ce65d-f1d2-49b4-95bd-b66aa03746e6",
+      "date": "2026-05-26",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000018QrSt,UPENDRA JADALI,khaja",
+      "merchant_normalized": "UPENDRA JADALI",
+      "amount": 480.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 39585.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "28ec2b23-098c-49ae-b372-5edacd44e70b",
+      "date": "2026-05-25",
+      "time": null,
+      "description_raw": "eSewa Load 9840077890, 242000005",
+      "merchant_normalized": "eSewa",
+      "amount": 2000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 40065.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "2b1c5b56-6795-48e2-b395-fd39f2c06278",
+      "date": "2026-05-24",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000017MnOp,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 42065.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "8538b6a3-83a5-4970-abb5-2fbddeb0f1cc",
+      "date": "2026-05-23",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000016IjKl,BUBA MUMA FANCY STORE,luga",
+      "merchant_normalized": "BUBA MUMA FANCY STORE",
+      "amount": 1600.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 42215.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "2b80f399-1e64-4ba2-aa63-20f8189489b6",
+      "date": "2026-05-22",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000015EfGh,R.B FASHION,luga",
+      "merchant_normalized": "R.B FASHION",
+      "amount": 2200.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 43815.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "e3b36bc8-773a-4975-8972-9f511fc4362f",
+      "date": "2026-05-21",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000014AbCd,FRIENDS VISION HOSPITALITY,khana",
+      "merchant_normalized": "FRIENDS VISION HOSPITALITY",
+      "amount": 3500.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 46015.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "7d5d0099-57d3-4b6d-9a05-dc4cab08df59",
+      "date": "2026-05-20",
+      "time": null,
+      "description_raw": "ESW WD:1778388468938:NARBNPKA",
+      "merchant_normalized": "Bank Transfer",
+      "amount": 1000.0,
+      "direction": "credit",
+      "category": "Cash Withdrawal",
+      "balance_after": 49515.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "2176e0bf-835c-47b1-a692-d6f6c231cf85",
+      "date": "2026-05-19",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000013WxYz,EVEREST MOMO CENTRE,momo",
+      "merchant_normalized": "EVEREST MOMO CENTRE",
+      "amount": 350.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 48515.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "9c0b3f5f-a808-4308-9017-f0e0874b6b52",
+      "date": "2026-05-18",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000012StUv,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 48865.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "af7cd233-ed23-4746-9112-2688b5a92ebf",
+      "date": "2026-05-17",
+      "time": null,
+      "description_raw": "eSewa Load 9841567890, 242000004",
+      "merchant_normalized": "eSewa",
+      "amount": 1500.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 49015.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "143933fc-e80e-45ec-a4d4-ef55148e4378",
+      "date": "2026-05-16",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000011OpQr,CHIYA GUFF,chiya",
+      "merchant_normalized": "CHIYA GUFF",
+      "amount": 110.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 50515.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "ab45561f-8242-4bab-a636-a383c57e9d45",
+      "date": "2026-05-15",
+      "time": null,
+      "description_raw": "CASBA allot of IPO - TAKSAR PIKHUWA KHOLA HYDROPOWER",
+      "merchant_normalized": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+      "amount": 10000.0,
+      "direction": "debit",
+      "category": "Investment",
+      "balance_after": 50625.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "bb5bace2-c44c-43c5-8f24-434d19820edd",
+      "date": "2026-05-14",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000010KlMn,DHARASH PHARMACY,medicine",
+      "merchant_normalized": "DHARASH PHARMACY",
+      "amount": 480.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 60625.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "4df842c7-518b-4866-b9ef-0ab3fac30a4d",
+      "date": "2026-05-13",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000009GhIj,SUSHIL KARKI,khaja",
+      "merchant_normalized": "SUSHIL KARKI",
+      "amount": 220.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 61105.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "192b1ee5-5bc5-4073-afad-9268145bacf8",
+      "date": "2026-05-12",
+      "time": null,
+      "description_raw": "MPAY 9865123456,MOB,242000003",
+      "merchant_normalized": "Mobile Payment",
+      "amount": 50.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 61325.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "38c20f80-3847-40a5-8629-ca6a1da98eb0",
+      "date": "2026-05-11",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000008CdEf,HIMALAYAN JAVA COFFEE,coffee",
+      "merchant_normalized": "HIMALAYAN JAVA COFFEE",
+      "amount": 380.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 61375.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "e9f306dc-7d66-4920-9da9-3f906bcc6a17",
+      "date": "2026-05-10",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000007YzAb,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 61755.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "b5885856-fbbf-4686-bc63-4dbb8854327a",
+      "date": "2026-05-09",
+      "time": null,
+      "description_raw": "eSewa Load 9808012345, 242000002",
+      "merchant_normalized": "eSewa",
+      "amount": 2000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 61905.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "f9b1a162-b1fb-4243-b30e-d392d081ae57",
+      "date": "2026-05-08",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000006UvWx,ONE PIECE STICKFOOD,khaja",
+      "merchant_normalized": "ONE PIECE STICKFOOD",
+      "amount": 520.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 63905.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "3b5bac79-d078-4e27-925d-524699637762",
+      "date": "2026-05-07",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000005QrSt,NEW OM VEG MOMO,momo",
+      "merchant_normalized": "NEW OM VEG MOMO",
+      "amount": 290.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 64425.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "a0fcc0c4-459c-48a6-8033-d622086e0aa6",
+      "date": "2026-05-06",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000004MnOp,BHATBHATENI SUPERMARKET,grocery",
+      "merchant_normalized": "BHATBHATENI SUPERMARKET",
+      "amount": 3100.0,
+      "direction": "debit",
+      "category": "Groceries",
+      "balance_after": 64715.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "d8746dd4-023d-48ec-afb4-951c4f0269b4",
+      "date": "2026-05-05",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000003IjKl,CHIYA CREW CAFE,chiya",
+      "merchant_normalized": "CHIYA CREW CAFE",
+      "amount": 260.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 67815.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "1a3497f8-f2c2-4253-b47e-673eb65853df",
+      "date": "2026-05-05",
+      "time": null,
+      "description_raw": "C-ASBA Fee - IPO - TAKSAR PIKHUWA KHOLA HYDROPOWER",
+      "merchant_normalized": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+      "amount": 5.0,
+      "direction": "debit",
+      "category": "Investment",
+      "balance_after": 68075.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "8ba5e975-959a-4512-9010-0dfdbb99a4ae",
+      "date": "2026-05-04",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000002EfGh,CAFE CATERO,chiya",
+      "merchant_normalized": "CAFE CATERO",
+      "amount": 200.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 68080.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "bcd9102a-b6ae-4a6e-bb7d-20f01ec9ce84",
+      "date": "2026-05-03",
+      "time": null,
+      "description_raw": "MPAY FPQR,31000001AbCd,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 68280.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "b12fe9e4-6941-4919-8f98-8487fc0b40bf",
+      "date": "2026-05-02",
+      "time": null,
+      "description_raw": "eSewa Load 9801234567, 242000001",
+      "merchant_normalized": "eSewa",
+      "amount": 1000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 68430.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "0c340a96-0472-4a9d-9f9a-3de9d75a44b7",
+      "date": "2026-05-01",
+      "time": null,
+      "description_raw": "FON:IBFT:SALARY:NARBNPKA:TECH COMPANY PVT LTD",
+      "merchant_normalized": "Bank Transfer",
+      "amount": 45000.0,
+      "direction": "credit",
+      "category": "Income & Salary",
+      "balance_after": 69430.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "8891a066-78b2-48dd-9e87-f1dbdfa3a880",
+      "date": "2026-04-30",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000023KlMn,EKANTA SALON,kapal",
+      "merchant_normalized": "EKANTA SALON",
+      "amount": 450.0,
+      "direction": "debit",
+      "category": "Personal Care",
+      "balance_after": 24430.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "1ca69c92-1e3e-42c2-8799-6d3b2fc9b2f2",
+      "date": "2026-04-29",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000022GhIj,R.B FASHION,luga",
+      "merchant_normalized": "R.B FASHION",
+      "amount": 1200.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 24880.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "4ce586e1-c6f4-485d-84c0-1e28369e7c75",
+      "date": "2026-04-28",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000021CdEf,FRIENDS VISION HOSPITALITY,khana",
+      "merchant_normalized": "FRIENDS VISION HOSPITALITY",
+      "amount": 2800.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 26080.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "d69a54cf-ec18-47b6-b09c-24acede2ed76",
+      "date": "2026-04-28",
+      "time": null,
+      "description_raw": "eSewa Load 9851234567, 241000005",
+      "merchant_normalized": "eSewa",
+      "amount": 2000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 28880.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "8a9f09cb-0abf-4c66-933c-90d05828a7ca",
+      "date": "2026-04-27",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000020YzAb,KALPANA CHIYA PASAL,khaja",
+      "merchant_normalized": "KALPANA CHIYA PASAL",
+      "amount": 140.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 30880.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "05457009-aa29-4cdb-a9a4-422689f0aa73",
+      "date": "2026-04-26",
+      "time": null,
+      "description_raw": "C-ASBA Fee - IPO - YAMBALING HYDROPOWER LIMITED",
+      "merchant_normalized": "YAMBALING HYDROPOWER LIMITED",
+      "amount": 5.0,
+      "direction": "debit",
+      "category": "Investment",
+      "balance_after": 31020.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "d6b3d507-200d-4206-a772-f0d38a0f9f1c",
+      "date": "2026-04-25",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000019UvWx,HIMALAYAN JAVA COFFEE,chiya",
+      "merchant_normalized": "HIMALAYAN JAVA COFFEE",
+      "amount": 320.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 31025.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "b64029fd-e390-4953-a677-5841a7d8c873",
+      "date": "2026-04-24",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000018QrSt,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 31345.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "5410c5c9-d00d-4b8d-a47c-5dea77d6ed1c",
+      "date": "2026-04-22",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000017MnOp,BUBA MUMA FANCY STORE,luga",
+      "merchant_normalized": "BUBA MUMA FANCY STORE",
+      "amount": 1800.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 31495.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "1c261bcc-9d86-4711-b110-640961958ef5",
+      "date": "2026-04-21",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000016IjKl,PEACE SPORTS HOUSE,luga",
+      "merchant_normalized": "PEACE SPORTS HOUSE",
+      "amount": 3200.0,
+      "direction": "debit",
+      "category": "Shopping",
+      "balance_after": 33295.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "91a50413-5bf0-41a3-ad76-82926a1459c6",
+      "date": "2026-04-21",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000015EfGh,UPENDRA JADALI,khaja",
+      "merchant_normalized": "UPENDRA JADALI",
+      "amount": 420.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 36495.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "6c1443dc-1380-4258-9d0f-4036ffdd4637",
+      "date": "2026-04-20",
+      "time": null,
+      "description_raw": "eSewa Load 9840077890, 241000004",
+      "merchant_normalized": "eSewa",
+      "amount": 1500.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 36915.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "55be684d-6778-4e85-bd0f-06dd38cacf37",
+      "date": "2026-04-20",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000014AbCd,SUSHIL KARKI,khaja",
+      "merchant_normalized": "Sushil Karki",
+      "amount": 180.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 38415.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "87837e5e-f267-4d9d-94cf-b31e419f5da4",
+      "date": "2026-04-19",
+      "time": null,
+      "description_raw": "MPAY 9841234567,MOB,241000003",
+      "merchant_normalized": "Mobile Payment",
+      "amount": 100.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 38595.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "7b044f80-c853-41db-90da-6f707838bae0",
+      "date": "2026-04-19",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000013WxYz,FRESHO COFFEE BEANS PVT LTD,coffee",
+      "merchant_normalized": "Fresho Coffee Beans Pvt Ltd",
+      "amount": 220.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 38695.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "6b568e62-c1d6-4194-a531-037b61b5c491",
+      "date": "2026-04-18",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000012StUv,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 38915.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "21cc5a99-b7fe-42f8-af00-0d409658cc4f",
+      "date": "2026-04-17",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000011OpQr,CHIYA GUFF,chiya",
+      "merchant_normalized": "Chiya Guff",
+      "amount": 120.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 39065.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "8de41db0-34ab-4184-8a44-eb1e68f60871",
+      "date": "2026-04-15",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000010KlMn,DHARASH PHARMACY,medicine",
+      "merchant_normalized": "Dharash Pharmacy",
+      "amount": 650.0,
+      "direction": "debit",
+      "category": "Healthcare",
+      "balance_after": 39185.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "005ba044-35f8-4910-95ad-c142b62a0cd2",
+      "date": "2026-04-14",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000009GhIj,EVEREST MOMO CENTRE,momo",
+      "merchant_normalized": "Everest Momo Centre",
+      "amount": 380.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 39835.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "f5065034-5bbd-49f8-84bb-8d6594d3bd87",
+      "date": "2026-04-13",
+      "time": null,
+      "description_raw": "eSewa Load 9808012345, 241000002",
+      "merchant_normalized": "eSewa",
+      "amount": 800.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 40215.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "9acfa8b2-0e1e-41ef-9d84-1cf4b2326111",
+      "date": "2026-04-13",
+      "time": null,
+      "description_raw": "MPAY 9865123456,MOB,241000001",
+      "merchant_normalized": "Mobile Payment",
+      "amount": 50.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 41015.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "a7609608-9e3b-4ccc-9be5-9e642825828d",
+      "date": "2026-04-12",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000008CdEf,CAFE CATERO,chiya",
+      "merchant_normalized": "Cafe Caterno",
+      "amount": 180.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 41065.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "c46daad0-b266-4bdd-b756-7762e021ae31",
+      "date": "2026-04-11",
+      "time": null,
+      "description_raw": "04810017509580:Int.Pd:15-01-2026 to 13-04-2026",
+      "merchant_normalized": "Interest Payment",
+      "amount": 32.5,
+      "direction": "credit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 41245.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "59a9c73b-a655-4c3e-b956-928829450ae6",
+      "date": "2026-04-11",
+      "time": null,
+      "description_raw": "04810017509580:WTax.Pd:15-01-2026to 13-04-2026",
+      "merchant_normalized": "Tax Payment",
+      "amount": 1.5,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 41212.51,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "5f0ac66b-a3f0-4048-813c-d9ce594f2adb",
+      "date": "2026-04-10",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000007YzAb,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 41214.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "314a688a-ecaf-430a-a634-7f4e6389aa2e",
+      "date": "2026-04-08",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000006UvWx,NEW OM VEG MOMO,momo",
+      "merchant_normalized": "New Om Veg Momo",
+      "amount": 320.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 41364.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "87ce5872-9e2e-468d-ac2c-09baceef7a84",
+      "date": "2026-04-07",
+      "time": null,
+      "description_raw": "eSewa Load 9841567890, 240000002",
+      "merchant_normalized": "eSewa",
+      "amount": 1000.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 41684.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "cf7331ac-5b05-45e3-bd47-e77b72d4181e",
+      "date": "2026-04-07",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000005QrSt,CHIYA CREW CAFE,chiya",
+      "merchant_normalized": "Chiya Crew Cafe",
+      "amount": 280.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 42684.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "a73874f8-7542-4cef-99b9-5848d3376b95",
+      "date": "2026-04-06",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000004MnOp,ONE PIECE STICKFOOD,khaja",
+      "merchant_normalized": "One Piece Stickfood",
+      "amount": 450.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 42964.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "b2c994d3-b9b0-4e88-b368-23f7f46ea4c6",
+      "date": "2026-04-06",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000003IjKl,BHATBHATENI SUPERMARKET,grocery",
+      "merchant_normalized": "Bhatbhateni Supermarket",
+      "amount": 2800.0,
+      "direction": "debit",
+      "category": "Groceries",
+      "balance_after": 43414.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "61d48904-f824-4b4e-8af2-c6e0cc7dbde3",
+      "date": "2026-04-05",
+      "time": null,
+      "description_raw": "C-ASBA Fee - IPO - KHANI KHOLA HYDROPOWER LIMITED",
+      "merchant_normalized": "Khani Kola Hydropower Limited",
+      "amount": 5.0,
+      "direction": "debit",
+      "category": "Investment",
+      "balance_after": 46214.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "8c15962f-f06c-47be-a2ef-7d219cb36680",
+      "date": "2026-04-04",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000002EfGh,Perry Dairy,dud",
+      "merchant_normalized": "Perry Dairy",
+      "amount": 150.0,
+      "direction": "debit",
+      "category": "Food & Dining",
+      "balance_after": 46219.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "f34c2ecd-1ac3-418a-9f93-1592851b4380",
+      "date": "2026-04-03",
+      "time": null,
+      "description_raw": "MPAY FPQR,30000001AbCd,HIMALAYAN JAVA COFFEE,chiya",
+      "merchant_normalized": "Himalayan Java Coffee",
+      "amount": 350.0,
+      "direction": "debit",
+      "category": "Bank Fees & Charges",
+      "balance_after": 46369.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "88bd1922-e11c-4b3d-8c28-a58b81108145",
+      "date": "2026-04-02",
+      "time": null,
+      "description_raw": "eSewa Load 9801234567, 240000001",
+      "merchant_normalized": "eSewa",
+      "amount": 500.0,
+      "direction": "debit",
+      "category": "Digital Wallet & Transfers",
+      "balance_after": 46719.01,
+      "source_bank": "Other"
+    },
+    {
+      "transaction_id": "40015ccc-4fb8-45ce-8cbd-8b4bd370f052",
+      "date": "2026-04-01",
+      "time": null,
+      "description_raw": "FON:IBFT:SALARY:NARBNPKA:TECH COMPANY PVT LTD",
+      "merchant_normalized": "Bank Transfer",
+      "amount": 45000.0,
+      "direction": "credit",
+      "category": "Income & Salary",
+      "balance_after": 47219.01,
+      "source_bank": "Other"
+    }
+  ],
+  "analytics": {
+    "day_of_week": {
+      "monday": 18150.0,
+      "tuesday": 18025.0,
+      "wednesday": 8540.0,
+      "thursday": 6485.0,
+      "friday": 23190.0,
+      "saturday": 15246.5,
+      "sunday": 9440.0,
+      "average_transactions_per_day": 13.43
+    },
+    "monthly_trend": {
+      "months": [
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "amounts": [
+        22821.5,
+        34450.0,
+        41805.0
+      ],
+      "mom_changes": [
+        null,
+        50.95,
+        21.35
+      ]
+    },
+    "category_breakdown": {
+      "categories": [
+        "Digital Wallet & Transfers",
+        "Shopping",
+        "Healthcare",
+        "Groceries",
+        "Investment",
+        "Food & Dining",
+        "Bank Fees & Charges",
+        "Personal Care"
+      ],
+      "amounts": [
+        23050.0,
+        19200.0,
+        17650.0,
+        15700.0,
+        10025.0,
+        9670.0,
+        2351.5,
+        1430.0
+      ],
+      "percentages": [
+        23.26,
+        19.38,
+        17.81,
+        15.85,
+        10.12,
+        9.76,
+        2.37,
+        1.44
+      ]
+    },
+    "transactions_timeline": {
+      "transactions": [
+        {
+          "date": "2026-04-01",
+          "time": "",
+          "amount": 45000.0,
+          "direction": "credit",
+          "merchant": "Bank Transfer",
+          "category": "Income & Salary",
+          "description": "FON:IBFT:SALARY:NARBNPKA:TECH COMPANY PVT LTD"
+        },
+        {
+          "date": "2026-04-02",
+          "time": "",
+          "amount": 500.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9801234567, 240000001"
+        },
+        {
+          "date": "2026-04-03",
+          "time": "",
+          "amount": 350.0,
+          "direction": "debit",
+          "merchant": "Himalayan Java Coffee",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,30000001AbCd,HIMALAYAN JAVA COFFEE,chiya"
+        },
+        {
+          "date": "2026-04-04",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000002EfGh,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-05",
+          "time": "",
+          "amount": 5.0,
+          "direction": "debit",
+          "merchant": "Khani Kola Hydropower Limited",
+          "category": "Investment",
+          "description": "C-ASBA Fee - IPO - KHANI KHOLA HYDROPOWER LIMITED"
+        },
+        {
+          "date": "2026-04-06",
+          "time": "",
+          "amount": 450.0,
+          "direction": "debit",
+          "merchant": "One Piece Stickfood",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000004MnOp,ONE PIECE STICKFOOD,khaja"
+        },
+        {
+          "date": "2026-04-06",
+          "time": "",
+          "amount": 2800.0,
+          "direction": "debit",
+          "merchant": "Bhatbhateni Supermarket",
+          "category": "Groceries",
+          "description": "MPAY FPQR,30000003IjKl,BHATBHATENI SUPERMARKET,grocery"
+        },
+        {
+          "date": "2026-04-07",
+          "time": "",
+          "amount": 1000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9841567890, 240000002"
+        },
+        {
+          "date": "2026-04-07",
+          "time": "",
+          "amount": 280.0,
+          "direction": "debit",
+          "merchant": "Chiya Crew Cafe",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000005QrSt,CHIYA CREW CAFE,chiya"
+        },
+        {
+          "date": "2026-04-08",
+          "time": "",
+          "amount": 320.0,
+          "direction": "debit",
+          "merchant": "New Om Veg Momo",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000006UvWx,NEW OM VEG MOMO,momo"
+        },
+        {
+          "date": "2026-04-10",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000007YzAb,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-11",
+          "time": "",
+          "amount": 32.5,
+          "direction": "credit",
+          "merchant": "Interest Payment",
+          "category": "Bank Fees & Charges",
+          "description": "04810017509580:Int.Pd:15-01-2026 to 13-04-2026"
+        },
+        {
+          "date": "2026-04-11",
+          "time": "",
+          "amount": 1.5,
+          "direction": "debit",
+          "merchant": "Tax Payment",
+          "category": "Bank Fees & Charges",
+          "description": "04810017509580:WTax.Pd:15-01-2026to 13-04-2026"
+        },
+        {
+          "date": "2026-04-12",
+          "time": "",
+          "amount": 180.0,
+          "direction": "debit",
+          "merchant": "Cafe Caterno",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000008CdEf,CAFE CATERO,chiya"
+        },
+        {
+          "date": "2026-04-13",
+          "time": "",
+          "amount": 800.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9808012345, 241000002"
+        },
+        {
+          "date": "2026-04-13",
+          "time": "",
+          "amount": 50.0,
+          "direction": "debit",
+          "merchant": "Mobile Payment",
+          "category": "Digital Wallet & Transfers",
+          "description": "MPAY 9865123456,MOB,241000001"
+        },
+        {
+          "date": "2026-04-14",
+          "time": "",
+          "amount": 380.0,
+          "direction": "debit",
+          "merchant": "Everest Momo Centre",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000009GhIj,EVEREST MOMO CENTRE,momo"
+        },
+        {
+          "date": "2026-04-15",
+          "time": "",
+          "amount": 650.0,
+          "direction": "debit",
+          "merchant": "Dharash Pharmacy",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,30000010KlMn,DHARASH PHARMACY,medicine"
+        },
+        {
+          "date": "2026-04-17",
+          "time": "",
+          "amount": 120.0,
+          "direction": "debit",
+          "merchant": "Chiya Guff",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000011OpQr,CHIYA GUFF,chiya"
+        },
+        {
+          "date": "2026-04-18",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000012StUv,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-19",
+          "time": "",
+          "amount": 100.0,
+          "direction": "debit",
+          "merchant": "Mobile Payment",
+          "category": "Digital Wallet & Transfers",
+          "description": "MPAY 9841234567,MOB,241000003"
+        },
+        {
+          "date": "2026-04-19",
+          "time": "",
+          "amount": 220.0,
+          "direction": "debit",
+          "merchant": "Fresho Coffee Beans Pvt Ltd",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,30000013WxYz,FRESHO COFFEE BEANS PVT LTD,coffee"
+        },
+        {
+          "date": "2026-04-20",
+          "time": "",
+          "amount": 1500.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9840077890, 241000004"
+        },
+        {
+          "date": "2026-04-20",
+          "time": "",
+          "amount": 180.0,
+          "direction": "debit",
+          "merchant": "Sushil Karki",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000014AbCd,SUSHIL KARKI,khaja"
+        },
+        {
+          "date": "2026-04-21",
+          "time": "",
+          "amount": 3200.0,
+          "direction": "debit",
+          "merchant": "PEACE SPORTS HOUSE",
+          "category": "Shopping",
+          "description": "MPAY FPQR,30000016IjKl,PEACE SPORTS HOUSE,luga"
+        },
+        {
+          "date": "2026-04-21",
+          "time": "",
+          "amount": 420.0,
+          "direction": "debit",
+          "merchant": "UPENDRA JADALI",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000015EfGh,UPENDRA JADALI,khaja"
+        },
+        {
+          "date": "2026-04-22",
+          "time": "",
+          "amount": 1800.0,
+          "direction": "debit",
+          "merchant": "BUBA MUMA FANCY STORE",
+          "category": "Shopping",
+          "description": "MPAY FPQR,30000017MnOp,BUBA MUMA FANCY STORE,luga"
+        },
+        {
+          "date": "2026-04-24",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000018QrSt,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-25",
+          "time": "",
+          "amount": 320.0,
+          "direction": "debit",
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,30000019UvWx,HIMALAYAN JAVA COFFEE,chiya"
+        },
+        {
+          "date": "2026-04-26",
+          "time": "",
+          "amount": 5.0,
+          "direction": "debit",
+          "merchant": "YAMBALING HYDROPOWER LIMITED",
+          "category": "Investment",
+          "description": "C-ASBA Fee - IPO - YAMBALING HYDROPOWER LIMITED"
+        },
+        {
+          "date": "2026-04-27",
+          "time": "",
+          "amount": 140.0,
+          "direction": "debit",
+          "merchant": "KALPANA CHIYA PASAL",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,30000020YzAb,KALPANA CHIYA PASAL,khaja"
+        },
+        {
+          "date": "2026-04-28",
+          "time": "",
+          "amount": 2800.0,
+          "direction": "debit",
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,30000021CdEf,FRIENDS VISION HOSPITALITY,khana"
+        },
+        {
+          "date": "2026-04-28",
+          "time": "",
+          "amount": 2000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9851234567, 241000005"
+        },
+        {
+          "date": "2026-04-29",
+          "time": "",
+          "amount": 1200.0,
+          "direction": "debit",
+          "merchant": "R.B FASHION",
+          "category": "Shopping",
+          "description": "MPAY FPQR,30000022GhIj,R.B FASHION,luga"
+        },
+        {
+          "date": "2026-04-30",
+          "time": "",
+          "amount": 450.0,
+          "direction": "debit",
+          "merchant": "EKANTA SALON",
+          "category": "Personal Care",
+          "description": "MPAY FPQR,30000023KlMn,EKANTA SALON,kapal"
+        },
+        {
+          "date": "2026-05-01",
+          "time": "",
+          "amount": 45000.0,
+          "direction": "credit",
+          "merchant": "Bank Transfer",
+          "category": "Income & Salary",
+          "description": "FON:IBFT:SALARY:NARBNPKA:TECH COMPANY PVT LTD"
+        },
+        {
+          "date": "2026-05-02",
+          "time": "",
+          "amount": 1000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9801234567, 242000001"
+        },
+        {
+          "date": "2026-05-03",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000001AbCd,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-04",
+          "time": "",
+          "amount": 200.0,
+          "direction": "debit",
+          "merchant": "CAFE CATERO",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000002EfGh,CAFE CATERO,chiya"
+        },
+        {
+          "date": "2026-05-05",
+          "time": "",
+          "amount": 260.0,
+          "direction": "debit",
+          "merchant": "CHIYA CREW CAFE",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000003IjKl,CHIYA CREW CAFE,chiya"
+        },
+        {
+          "date": "2026-05-05",
+          "time": "",
+          "amount": 5.0,
+          "direction": "debit",
+          "merchant": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+          "category": "Investment",
+          "description": "C-ASBA Fee - IPO - TAKSAR PIKHUWA KHOLA HYDROPOWER"
+        },
+        {
+          "date": "2026-05-06",
+          "time": "",
+          "amount": 3100.0,
+          "direction": "debit",
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "category": "Groceries",
+          "description": "MPAY FPQR,31000004MnOp,BHATBHATENI SUPERMARKET,grocery"
+        },
+        {
+          "date": "2026-05-07",
+          "time": "",
+          "amount": 290.0,
+          "direction": "debit",
+          "merchant": "NEW OM VEG MOMO",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000005QrSt,NEW OM VEG MOMO,momo"
+        },
+        {
+          "date": "2026-05-08",
+          "time": "",
+          "amount": 520.0,
+          "direction": "debit",
+          "merchant": "ONE PIECE STICKFOOD",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000006UvWx,ONE PIECE STICKFOOD,khaja"
+        },
+        {
+          "date": "2026-05-09",
+          "time": "",
+          "amount": 2000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9808012345, 242000002"
+        },
+        {
+          "date": "2026-05-10",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000007YzAb,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-11",
+          "time": "",
+          "amount": 380.0,
+          "direction": "debit",
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,31000008CdEf,HIMALAYAN JAVA COFFEE,coffee"
+        },
+        {
+          "date": "2026-05-12",
+          "time": "",
+          "amount": 50.0,
+          "direction": "debit",
+          "merchant": "Mobile Payment",
+          "category": "Digital Wallet & Transfers",
+          "description": "MPAY 9865123456,MOB,242000003"
+        },
+        {
+          "date": "2026-05-13",
+          "time": "",
+          "amount": 220.0,
+          "direction": "debit",
+          "merchant": "SUSHIL KARKI",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000009GhIj,SUSHIL KARKI,khaja"
+        },
+        {
+          "date": "2026-05-14",
+          "time": "",
+          "amount": 480.0,
+          "direction": "debit",
+          "merchant": "DHARASH PHARMACY",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,31000010KlMn,DHARASH PHARMACY,medicine"
+        },
+        {
+          "date": "2026-05-15",
+          "time": "",
+          "amount": 10000.0,
+          "direction": "debit",
+          "merchant": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+          "category": "Investment",
+          "description": "CASBA allot of IPO - TAKSAR PIKHUWA KHOLA HYDROPOWER"
+        },
+        {
+          "date": "2026-05-16",
+          "time": "",
+          "amount": 110.0,
+          "direction": "debit",
+          "merchant": "CHIYA GUFF",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000011OpQr,CHIYA GUFF,chiya"
+        },
+        {
+          "date": "2026-05-17",
+          "time": "",
+          "amount": 1500.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9841567890, 242000004"
+        },
+        {
+          "date": "2026-05-18",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000012StUv,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-19",
+          "time": "",
+          "amount": 350.0,
+          "direction": "debit",
+          "merchant": "EVEREST MOMO CENTRE",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000013WxYz,EVEREST MOMO CENTRE,momo"
+        },
+        {
+          "date": "2026-05-20",
+          "time": "",
+          "amount": 1000.0,
+          "direction": "credit",
+          "merchant": "Bank Transfer",
+          "category": "Cash Withdrawal",
+          "description": "ESW WD:1778388468938:NARBNPKA"
+        },
+        {
+          "date": "2026-05-21",
+          "time": "",
+          "amount": 3500.0,
+          "direction": "debit",
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,31000014AbCd,FRIENDS VISION HOSPITALITY,khana"
+        },
+        {
+          "date": "2026-05-22",
+          "time": "",
+          "amount": 2200.0,
+          "direction": "debit",
+          "merchant": "R.B FASHION",
+          "category": "Shopping",
+          "description": "MPAY FPQR,31000015EfGh,R.B FASHION,luga"
+        },
+        {
+          "date": "2026-05-23",
+          "time": "",
+          "amount": 1600.0,
+          "direction": "debit",
+          "merchant": "BUBA MUMA FANCY STORE",
+          "category": "Shopping",
+          "description": "MPAY FPQR,31000016IjKl,BUBA MUMA FANCY STORE,luga"
+        },
+        {
+          "date": "2026-05-24",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000017MnOp,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-25",
+          "time": "",
+          "amount": 2000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9840077890, 242000005"
+        },
+        {
+          "date": "2026-05-26",
+          "time": "",
+          "amount": 480.0,
+          "direction": "debit",
+          "merchant": "UPENDRA JADALI",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000018QrSt,UPENDRA JADALI,khaja"
+        },
+        {
+          "date": "2026-05-27",
+          "time": "",
+          "amount": 160.0,
+          "direction": "debit",
+          "merchant": "KALPANA CHIYA PASAL",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,31000019UvWx,KALPANA CHIYA PASAL,chiya"
+        },
+        {
+          "date": "2026-05-28",
+          "time": "",
+          "amount": 5.0,
+          "direction": "debit",
+          "merchant": "SNOW RIVERS LIMITED",
+          "category": "Investment",
+          "description": "C-ASBA Fee - IPO - SNOW RIVERS LIMITED"
+        },
+        {
+          "date": "2026-05-29",
+          "time": "",
+          "amount": 340.0,
+          "direction": "debit",
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,31000020YzAb,HIMALAYAN JAVA COFFEE,coffee"
+        },
+        {
+          "date": "2026-05-30",
+          "time": "",
+          "amount": 2600.0,
+          "direction": "debit",
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "category": "Groceries",
+          "description": "MPAY FPQR,31000021CdEf,BHATBHATENI SUPERMARKET,grocery"
+        },
+        {
+          "date": "2026-05-31",
+          "time": "",
+          "amount": 500.0,
+          "direction": "debit",
+          "merchant": "EKANTA SALON",
+          "category": "Personal Care",
+          "description": "MPAY FPQR,31000022GhIj,EKANTA SALON,kapal"
+        },
+        {
+          "date": "2026-06-01",
+          "time": "",
+          "amount": 45000.0,
+          "direction": "credit",
+          "merchant": "Bank Transfer",
+          "category": "Income & Salary",
+          "description": "FON:IBFT:SALARY:NARBNPKA:TECH COMPANY PVT LTD"
+        },
+        {
+          "date": "2026-06-02",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000001AbCd,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-02",
+          "time": "",
+          "amount": 1000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9801234567, 243000001"
+        },
+        {
+          "date": "2026-06-03",
+          "time": "",
+          "amount": 220.0,
+          "direction": "debit",
+          "merchant": "CAFE CATERO",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000002EfGh,CAFE CATERO,chiya"
+        },
+        {
+          "date": "2026-06-04",
+          "time": "",
+          "amount": 310.0,
+          "direction": "debit",
+          "merchant": "NEW OM VEG MOMO",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000003IjKl,NEW OM VEG MOMO,momo"
+        },
+        {
+          "date": "2026-06-05",
+          "time": "",
+          "amount": 240.0,
+          "direction": "debit",
+          "merchant": "CHIYA CREW CAFE",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000004MnOp,CHIYA CREW CAFE,chiya"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "",
+          "amount": 560.0,
+          "direction": "debit",
+          "merchant": "ONE PIECE STICKFOOD",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000006UvWx,ONE PIECE STICKFOOD,khaja"
+        },
+        {
+          "date": "2026-06-06",
+          "time": "",
+          "amount": 3400.0,
+          "direction": "debit",
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "category": "Groceries",
+          "description": "MPAY FPQR,32000005QrSt,BHATBHATENI SUPERMARKET,grocery"
+        },
+        {
+          "date": "2026-06-07",
+          "time": "",
+          "amount": 4200.0,
+          "direction": "debit",
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,32000007YzAb,FRIENDS VISION HOSPITALITY,khana"
+        },
+        {
+          "date": "2026-06-08",
+          "time": "",
+          "amount": 2000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9808012345, 243000002"
+        },
+        {
+          "date": "2026-06-09",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000008CdEf,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-10",
+          "time": "",
+          "amount": 360.0,
+          "direction": "debit",
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,32000009GhIj,HIMALAYAN JAVA COFFEE,coffee"
+        },
+        {
+          "date": "2026-06-11",
+          "time": "",
+          "amount": 50.0,
+          "direction": "debit",
+          "merchant": "Mobile Payment",
+          "category": "Digital Wallet & Transfers",
+          "description": "MPAY 9865123456,MOB,243000003"
+        },
+        {
+          "date": "2026-06-12",
+          "time": "",
+          "amount": 820.0,
+          "direction": "debit",
+          "merchant": "DHARASH PHARMACY",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,32000010KlMn,DHARASH PHARMACY,medicine"
+        },
+        {
+          "date": "2026-06-13",
+          "time": "",
+          "amount": 5.0,
+          "direction": "debit",
+          "merchant": "MOUNT EVEREST POWER DEVELOPMENT",
+          "category": "Investment",
+          "description": "C-ASBA Fee - IPO - MOUNT EVEREST POWER DEVELOPMENT"
+        },
+        {
+          "date": "2026-06-14",
+          "time": "",
+          "amount": 200.0,
+          "direction": "debit",
+          "merchant": "SUSHIL KARKI",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000011OpQr,SUSHIL KARKI,khaja"
+        },
+        {
+          "date": "2026-06-15",
+          "time": "",
+          "amount": 3000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9841567890, 243000004"
+        },
+        {
+          "date": "2026-06-16",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000012StUv,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-17",
+          "time": "",
+          "amount": 130.0,
+          "direction": "debit",
+          "merchant": "CHIYA GUFF",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000013WxYz,CHIYA GUFF,chiya"
+        },
+        {
+          "date": "2026-06-18",
+          "time": "",
+          "amount": 420.0,
+          "direction": "debit",
+          "merchant": "EVEREST MOMO CENTRE",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000014AbCd,EVEREST MOMO CENTRE,momo"
+        },
+        {
+          "date": "2026-06-19",
+          "time": "",
+          "amount": 4500.0,
+          "direction": "debit",
+          "merchant": "PEACE SPORTS HOUSE",
+          "category": "Shopping",
+          "description": "MPAY FPQR,32000015EfGh,PEACE SPORTS HOUSE,luga"
+        },
+        {
+          "date": "2026-06-20",
+          "time": "",
+          "amount": 2800.0,
+          "direction": "debit",
+          "merchant": "R.B FASHION",
+          "category": "Shopping",
+          "description": "MPAY FPQR,32000016IjKl,R.B FASHION,luga"
+        },
+        {
+          "date": "2026-06-21",
+          "time": "",
+          "amount": 1900.0,
+          "direction": "debit",
+          "merchant": "BUBA MUMA FANCY STORE",
+          "category": "Shopping",
+          "description": "MPAY FPQR,32000017MnOp,BUBA MUMA FANCY STORE,luga"
+        },
+        {
+          "date": "2026-06-22",
+          "time": "",
+          "amount": 2000.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9840077890, 243000005"
+        },
+        {
+          "date": "2026-06-23",
+          "time": "",
+          "amount": 150.0,
+          "direction": "debit",
+          "merchant": "Perry Dairy",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000018QrSt,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-24",
+          "time": "",
+          "amount": 380.0,
+          "direction": "debit",
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "category": "Bank Fees & Charges",
+          "description": "MPAY FPQR,32000019UvWx,HIMALAYAN JAVA COFFEE,coffee"
+        },
+        {
+          "date": "2026-06-25",
+          "time": "",
+          "amount": 480.0,
+          "direction": "debit",
+          "merchant": "EKANTA SALON",
+          "category": "Personal Care",
+          "description": "MPAY FPQR,32000020YzAb,EKANTA SALON,kapal"
+        },
+        {
+          "date": "2026-06-26",
+          "time": "",
+          "amount": 3800.0,
+          "direction": "debit",
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "category": "Groceries",
+          "description": "MPAY FPQR,32000021CdEf,BHATBHATENI SUPERMARKET,grocery"
+        },
+        {
+          "date": "2026-06-27",
+          "time": "",
+          "amount": 550.0,
+          "direction": "debit",
+          "merchant": "UPENDRA JADALI",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000022GhIj,UPENDRA JADALI,khaja"
+        },
+        {
+          "date": "2026-06-28",
+          "time": "",
+          "amount": 180.0,
+          "direction": "debit",
+          "merchant": "KALPANA CHIYA PASAL",
+          "category": "Food & Dining",
+          "description": "MPAY FPQR,32000023KlMn,KALPANA CHIYA PASAL,chiya"
+        },
+        {
+          "date": "2026-06-29",
+          "time": "",
+          "amount": 2500.0,
+          "direction": "debit",
+          "merchant": "eSewa",
+          "category": "Digital Wallet & Transfers",
+          "description": "eSewa Load 9851234567, 243000006"
+        },
+        {
+          "date": "2026-06-30",
+          "time": "",
+          "amount": 5200.0,
+          "direction": "debit",
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "category": "Healthcare",
+          "description": "MPAY FPQR,32000024OpQr,FRIENDS VISION HOSPITALITY,khana"
+        }
+      ]
+    },
+    "anomalies": {
+      "daily_totals": [
+        {
+          "date": "2026-04-02",
+          "amount": 500.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9801234567, 240000001"
+        },
+        {
+          "date": "2026-04-03",
+          "amount": 350.0,
+          "is_anomaly": false,
+          "merchant": "Himalayan Java Coffee",
+          "description": "MPAY FPQR,30000001AbCd,HIMALAYAN JAVA COFFEE,chiya"
+        },
+        {
+          "date": "2026-04-04",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,30000002EfGh,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-05",
+          "amount": 5.0,
+          "is_anomaly": false,
+          "merchant": "Khani Kola Hydropower Limited",
+          "description": "C-ASBA Fee - IPO - KHANI KHOLA HYDROPOWER LIMITED"
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 450.0,
+          "is_anomaly": false,
+          "merchant": "One Piece Stickfood",
+          "description": "MPAY FPQR,30000004MnOp,ONE PIECE STICKFOOD,khaja"
+        },
+        {
+          "date": "2026-04-06",
+          "amount": 2800.0,
+          "is_anomaly": false,
+          "merchant": "Bhatbhateni Supermarket",
+          "description": "MPAY FPQR,30000003IjKl,BHATBHATENI SUPERMARKET,gro"
+        },
+        {
+          "date": "2026-04-07",
+          "amount": 1000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9841567890, 240000002"
+        },
+        {
+          "date": "2026-04-07",
+          "amount": 280.0,
+          "is_anomaly": false,
+          "merchant": "Chiya Crew Cafe",
+          "description": "MPAY FPQR,30000005QrSt,CHIYA CREW CAFE,chiya"
+        },
+        {
+          "date": "2026-04-08",
+          "amount": 320.0,
+          "is_anomaly": false,
+          "merchant": "New Om Veg Momo",
+          "description": "MPAY FPQR,30000006UvWx,NEW OM VEG MOMO,momo"
+        },
+        {
+          "date": "2026-04-10",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,30000007YzAb,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-11",
+          "amount": 1.5,
+          "is_anomaly": false,
+          "merchant": "Tax Payment",
+          "description": "04810017509580:WTax.Pd:15-01-2026to 13-04-2026"
+        },
+        {
+          "date": "2026-04-12",
+          "amount": 180.0,
+          "is_anomaly": false,
+          "merchant": "Cafe Caterno",
+          "description": "MPAY FPQR,30000008CdEf,CAFE CATERO,chiya"
+        },
+        {
+          "date": "2026-04-13",
+          "amount": 800.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9808012345, 241000002"
+        },
+        {
+          "date": "2026-04-13",
+          "amount": 50.0,
+          "is_anomaly": false,
+          "merchant": "Mobile Payment",
+          "description": "MPAY 9865123456,MOB,241000001"
+        },
+        {
+          "date": "2026-04-14",
+          "amount": 380.0,
+          "is_anomaly": false,
+          "merchant": "Everest Momo Centre",
+          "description": "MPAY FPQR,30000009GhIj,EVEREST MOMO CENTRE,momo"
+        },
+        {
+          "date": "2026-04-15",
+          "amount": 650.0,
+          "is_anomaly": false,
+          "merchant": "Dharash Pharmacy",
+          "description": "MPAY FPQR,30000010KlMn,DHARASH PHARMACY,medicine"
+        },
+        {
+          "date": "2026-04-17",
+          "amount": 120.0,
+          "is_anomaly": false,
+          "merchant": "Chiya Guff",
+          "description": "MPAY FPQR,30000011OpQr,CHIYA GUFF,chiya"
+        },
+        {
+          "date": "2026-04-18",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,30000012StUv,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-19",
+          "amount": 100.0,
+          "is_anomaly": false,
+          "merchant": "Mobile Payment",
+          "description": "MPAY 9841234567,MOB,241000003"
+        },
+        {
+          "date": "2026-04-19",
+          "amount": 220.0,
+          "is_anomaly": false,
+          "merchant": "Fresho Coffee Beans Pvt Ltd",
+          "description": "MPAY FPQR,30000013WxYz,FRESHO COFFEE BEANS PVT LTD"
+        },
+        {
+          "date": "2026-04-20",
+          "amount": 1500.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9840077890, 241000004"
+        },
+        {
+          "date": "2026-04-20",
+          "amount": 180.0,
+          "is_anomaly": false,
+          "merchant": "Sushil Karki",
+          "description": "MPAY FPQR,30000014AbCd,SUSHIL KARKI,khaja"
+        },
+        {
+          "date": "2026-04-21",
+          "amount": 3200.0,
+          "is_anomaly": false,
+          "merchant": "PEACE SPORTS HOUSE",
+          "description": "MPAY FPQR,30000016IjKl,PEACE SPORTS HOUSE,luga"
+        },
+        {
+          "date": "2026-04-21",
+          "amount": 420.0,
+          "is_anomaly": false,
+          "merchant": "UPENDRA JADALI",
+          "description": "MPAY FPQR,30000015EfGh,UPENDRA JADALI,khaja"
+        },
+        {
+          "date": "2026-04-22",
+          "amount": 1800.0,
+          "is_anomaly": false,
+          "merchant": "BUBA MUMA FANCY STORE",
+          "description": "MPAY FPQR,30000017MnOp,BUBA MUMA FANCY STORE,luga"
+        },
+        {
+          "date": "2026-04-24",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,30000018QrSt,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-04-25",
+          "amount": 320.0,
+          "is_anomaly": false,
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "description": "MPAY FPQR,30000019UvWx,HIMALAYAN JAVA COFFEE,chiya"
+        },
+        {
+          "date": "2026-04-26",
+          "amount": 5.0,
+          "is_anomaly": false,
+          "merchant": "YAMBALING HYDROPOWER LIMITED",
+          "description": "C-ASBA Fee - IPO - YAMBALING HYDROPOWER LIMITED"
+        },
+        {
+          "date": "2026-04-27",
+          "amount": 140.0,
+          "is_anomaly": false,
+          "merchant": "KALPANA CHIYA PASAL",
+          "description": "MPAY FPQR,30000020YzAb,KALPANA CHIYA PASAL,khaja"
+        },
+        {
+          "date": "2026-04-28",
+          "amount": 2800.0,
+          "is_anomaly": false,
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "description": "MPAY FPQR,30000021CdEf,FRIENDS VISION HOSPITALITY,"
+        },
+        {
+          "date": "2026-04-28",
+          "amount": 2000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9851234567, 241000005"
+        },
+        {
+          "date": "2026-04-29",
+          "amount": 1200.0,
+          "is_anomaly": false,
+          "merchant": "R.B FASHION",
+          "description": "MPAY FPQR,30000022GhIj,R.B FASHION,luga"
+        },
+        {
+          "date": "2026-04-30",
+          "amount": 450.0,
+          "is_anomaly": false,
+          "merchant": "EKANTA SALON",
+          "description": "MPAY FPQR,30000023KlMn,EKANTA SALON,kapal"
+        },
+        {
+          "date": "2026-05-02",
+          "amount": 1000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9801234567, 242000001"
+        },
+        {
+          "date": "2026-05-03",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,31000001AbCd,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-04",
+          "amount": 200.0,
+          "is_anomaly": false,
+          "merchant": "CAFE CATERO",
+          "description": "MPAY FPQR,31000002EfGh,CAFE CATERO,chiya"
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 260.0,
+          "is_anomaly": false,
+          "merchant": "CHIYA CREW CAFE",
+          "description": "MPAY FPQR,31000003IjKl,CHIYA CREW CAFE,chiya"
+        },
+        {
+          "date": "2026-05-05",
+          "amount": 5.0,
+          "is_anomaly": false,
+          "merchant": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+          "description": "C-ASBA Fee - IPO - TAKSAR PIKHUWA KHOLA HYDROPOWER"
+        },
+        {
+          "date": "2026-05-06",
+          "amount": 3100.0,
+          "is_anomaly": false,
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "description": "MPAY FPQR,31000004MnOp,BHATBHATENI SUPERMARKET,gro"
+        },
+        {
+          "date": "2026-05-07",
+          "amount": 290.0,
+          "is_anomaly": false,
+          "merchant": "NEW OM VEG MOMO",
+          "description": "MPAY FPQR,31000005QrSt,NEW OM VEG MOMO,momo"
+        },
+        {
+          "date": "2026-05-08",
+          "amount": 520.0,
+          "is_anomaly": false,
+          "merchant": "ONE PIECE STICKFOOD",
+          "description": "MPAY FPQR,31000006UvWx,ONE PIECE STICKFOOD,khaja"
+        },
+        {
+          "date": "2026-05-09",
+          "amount": 2000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9808012345, 242000002"
+        },
+        {
+          "date": "2026-05-10",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,31000007YzAb,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-11",
+          "amount": 380.0,
+          "is_anomaly": false,
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "description": "MPAY FPQR,31000008CdEf,HIMALAYAN JAVA COFFEE,coffe"
+        },
+        {
+          "date": "2026-05-12",
+          "amount": 50.0,
+          "is_anomaly": false,
+          "merchant": "Mobile Payment",
+          "description": "MPAY 9865123456,MOB,242000003"
+        },
+        {
+          "date": "2026-05-13",
+          "amount": 220.0,
+          "is_anomaly": false,
+          "merchant": "SUSHIL KARKI",
+          "description": "MPAY FPQR,31000009GhIj,SUSHIL KARKI,khaja"
+        },
+        {
+          "date": "2026-05-14",
+          "amount": 480.0,
+          "is_anomaly": false,
+          "merchant": "DHARASH PHARMACY",
+          "description": "MPAY FPQR,31000010KlMn,DHARASH PHARMACY,medicine"
+        },
+        {
+          "date": "2026-05-15",
+          "amount": 10000.0,
+          "is_anomaly": true,
+          "merchant": "TAKSAR PIKHUWA KHOLA HYDROPOWER",
+          "description": "CASBA allot of IPO - TAKSAR PIKHUWA KHOLA HYDROPOW"
+        },
+        {
+          "date": "2026-05-16",
+          "amount": 110.0,
+          "is_anomaly": false,
+          "merchant": "CHIYA GUFF",
+          "description": "MPAY FPQR,31000011OpQr,CHIYA GUFF,chiya"
+        },
+        {
+          "date": "2026-05-17",
+          "amount": 1500.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9841567890, 242000004"
+        },
+        {
+          "date": "2026-05-18",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,31000012StUv,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-19",
+          "amount": 350.0,
+          "is_anomaly": false,
+          "merchant": "EVEREST MOMO CENTRE",
+          "description": "MPAY FPQR,31000013WxYz,EVEREST MOMO CENTRE,momo"
+        },
+        {
+          "date": "2026-05-21",
+          "amount": 3500.0,
+          "is_anomaly": false,
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "description": "MPAY FPQR,31000014AbCd,FRIENDS VISION HOSPITALITY,"
+        },
+        {
+          "date": "2026-05-22",
+          "amount": 2200.0,
+          "is_anomaly": false,
+          "merchant": "R.B FASHION",
+          "description": "MPAY FPQR,31000015EfGh,R.B FASHION,luga"
+        },
+        {
+          "date": "2026-05-23",
+          "amount": 1600.0,
+          "is_anomaly": false,
+          "merchant": "BUBA MUMA FANCY STORE",
+          "description": "MPAY FPQR,31000016IjKl,BUBA MUMA FANCY STORE,luga"
+        },
+        {
+          "date": "2026-05-24",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,31000017MnOp,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-05-25",
+          "amount": 2000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9840077890, 242000005"
+        },
+        {
+          "date": "2026-05-26",
+          "amount": 480.0,
+          "is_anomaly": false,
+          "merchant": "UPENDRA JADALI",
+          "description": "MPAY FPQR,31000018QrSt,UPENDRA JADALI,khaja"
+        },
+        {
+          "date": "2026-05-27",
+          "amount": 160.0,
+          "is_anomaly": false,
+          "merchant": "KALPANA CHIYA PASAL",
+          "description": "MPAY FPQR,31000019UvWx,KALPANA CHIYA PASAL,chiya"
+        },
+        {
+          "date": "2026-05-28",
+          "amount": 5.0,
+          "is_anomaly": false,
+          "merchant": "SNOW RIVERS LIMITED",
+          "description": "C-ASBA Fee - IPO - SNOW RIVERS LIMITED"
+        },
+        {
+          "date": "2026-05-29",
+          "amount": 340.0,
+          "is_anomaly": false,
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "description": "MPAY FPQR,31000020YzAb,HIMALAYAN JAVA COFFEE,coffe"
+        },
+        {
+          "date": "2026-05-30",
+          "amount": 2600.0,
+          "is_anomaly": false,
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "description": "MPAY FPQR,31000021CdEf,BHATBHATENI SUPERMARKET,gro"
+        },
+        {
+          "date": "2026-05-31",
+          "amount": 500.0,
+          "is_anomaly": false,
+          "merchant": "EKANTA SALON",
+          "description": "MPAY FPQR,31000022GhIj,EKANTA SALON,kapal"
+        },
+        {
+          "date": "2026-06-02",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,32000001AbCd,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-02",
+          "amount": 1000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9801234567, 243000001"
+        },
+        {
+          "date": "2026-06-03",
+          "amount": 220.0,
+          "is_anomaly": false,
+          "merchant": "CAFE CATERO",
+          "description": "MPAY FPQR,32000002EfGh,CAFE CATERO,chiya"
+        },
+        {
+          "date": "2026-06-04",
+          "amount": 310.0,
+          "is_anomaly": false,
+          "merchant": "NEW OM VEG MOMO",
+          "description": "MPAY FPQR,32000003IjKl,NEW OM VEG MOMO,momo"
+        },
+        {
+          "date": "2026-06-05",
+          "amount": 240.0,
+          "is_anomaly": false,
+          "merchant": "CHIYA CREW CAFE",
+          "description": "MPAY FPQR,32000004MnOp,CHIYA CREW CAFE,chiya"
+        },
+        {
+          "date": "2026-06-06",
+          "amount": 560.0,
+          "is_anomaly": false,
+          "merchant": "ONE PIECE STICKFOOD",
+          "description": "MPAY FPQR,32000006UvWx,ONE PIECE STICKFOOD,khaja"
+        },
+        {
+          "date": "2026-06-06",
+          "amount": 3400.0,
+          "is_anomaly": false,
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "description": "MPAY FPQR,32000005QrSt,BHATBHATENI SUPERMARKET,gro"
+        },
+        {
+          "date": "2026-06-07",
+          "amount": 4200.0,
+          "is_anomaly": true,
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "description": "MPAY FPQR,32000007YzAb,FRIENDS VISION HOSPITALITY,"
+        },
+        {
+          "date": "2026-06-08",
+          "amount": 2000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9808012345, 243000002"
+        },
+        {
+          "date": "2026-06-09",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,32000008CdEf,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-10",
+          "amount": 360.0,
+          "is_anomaly": false,
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "description": "MPAY FPQR,32000009GhIj,HIMALAYAN JAVA COFFEE,coffe"
+        },
+        {
+          "date": "2026-06-11",
+          "amount": 50.0,
+          "is_anomaly": false,
+          "merchant": "Mobile Payment",
+          "description": "MPAY 9865123456,MOB,243000003"
+        },
+        {
+          "date": "2026-06-12",
+          "amount": 820.0,
+          "is_anomaly": false,
+          "merchant": "DHARASH PHARMACY",
+          "description": "MPAY FPQR,32000010KlMn,DHARASH PHARMACY,medicine"
+        },
+        {
+          "date": "2026-06-13",
+          "amount": 5.0,
+          "is_anomaly": false,
+          "merchant": "MOUNT EVEREST POWER DEVELOPMENT",
+          "description": "C-ASBA Fee - IPO - MOUNT EVEREST POWER DEVELOPMENT"
+        },
+        {
+          "date": "2026-06-14",
+          "amount": 200.0,
+          "is_anomaly": false,
+          "merchant": "SUSHIL KARKI",
+          "description": "MPAY FPQR,32000011OpQr,SUSHIL KARKI,khaja"
+        },
+        {
+          "date": "2026-06-15",
+          "amount": 3000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9841567890, 243000004"
+        },
+        {
+          "date": "2026-06-16",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,32000012StUv,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-17",
+          "amount": 130.0,
+          "is_anomaly": false,
+          "merchant": "CHIYA GUFF",
+          "description": "MPAY FPQR,32000013WxYz,CHIYA GUFF,chiya"
+        },
+        {
+          "date": "2026-06-18",
+          "amount": 420.0,
+          "is_anomaly": false,
+          "merchant": "EVEREST MOMO CENTRE",
+          "description": "MPAY FPQR,32000014AbCd,EVEREST MOMO CENTRE,momo"
+        },
+        {
+          "date": "2026-06-19",
+          "amount": 4500.0,
+          "is_anomaly": true,
+          "merchant": "PEACE SPORTS HOUSE",
+          "description": "MPAY FPQR,32000015EfGh,PEACE SPORTS HOUSE,luga"
+        },
+        {
+          "date": "2026-06-20",
+          "amount": 2800.0,
+          "is_anomaly": false,
+          "merchant": "R.B FASHION",
+          "description": "MPAY FPQR,32000016IjKl,R.B FASHION,luga"
+        },
+        {
+          "date": "2026-06-21",
+          "amount": 1900.0,
+          "is_anomaly": false,
+          "merchant": "BUBA MUMA FANCY STORE",
+          "description": "MPAY FPQR,32000017MnOp,BUBA MUMA FANCY STORE,luga"
+        },
+        {
+          "date": "2026-06-22",
+          "amount": 2000.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9840077890, 243000005"
+        },
+        {
+          "date": "2026-06-23",
+          "amount": 150.0,
+          "is_anomaly": false,
+          "merchant": "Perry Dairy",
+          "description": "MPAY FPQR,32000018QrSt,Perry Dairy,dud"
+        },
+        {
+          "date": "2026-06-24",
+          "amount": 380.0,
+          "is_anomaly": false,
+          "merchant": "HIMALAYAN JAVA COFFEE",
+          "description": "MPAY FPQR,32000019UvWx,HIMALAYAN JAVA COFFEE,coffe"
+        },
+        {
+          "date": "2026-06-25",
+          "amount": 480.0,
+          "is_anomaly": false,
+          "merchant": "EKANTA SALON",
+          "description": "MPAY FPQR,32000020YzAb,EKANTA SALON,kapal"
+        },
+        {
+          "date": "2026-06-26",
+          "amount": 3800.0,
+          "is_anomaly": false,
+          "merchant": "BHATBHATENI SUPERMARKET",
+          "description": "MPAY FPQR,32000021CdEf,BHATBHATENI SUPERMARKET,gro"
+        },
+        {
+          "date": "2026-06-27",
+          "amount": 550.0,
+          "is_anomaly": false,
+          "merchant": "UPENDRA JADALI",
+          "description": "MPAY FPQR,32000022GhIj,UPENDRA JADALI,khaja"
+        },
+        {
+          "date": "2026-06-28",
+          "amount": 180.0,
+          "is_anomaly": false,
+          "merchant": "KALPANA CHIYA PASAL",
+          "description": "MPAY FPQR,32000023KlMn,KALPANA CHIYA PASAL,chiya"
+        },
+        {
+          "date": "2026-06-29",
+          "amount": 2500.0,
+          "is_anomaly": false,
+          "merchant": "eSewa",
+          "description": "eSewa Load 9851234567, 243000006"
+        },
+        {
+          "date": "2026-06-30",
+          "amount": 5200.0,
+          "is_anomaly": true,
+          "merchant": "FRIENDS VISION HOSPITALITY",
+          "description": "MPAY FPQR,32000024OpQr,FRIENDS VISION HOSPITALITY,"
+        }
+      ],
+      "threshold": 4072.42,
+      "method": "zscore",
+      "anomaly_count": 4
+    }
+  },
+  "insights": {
+    "day_of_week": "Spending patterns show the highest expenditure on Friday with NPR 23190.0 and the lowest on Thursday with NPR 6485.0, with daily expenditures fluctuating greatly throughout the week, ranging from NPR 8540.0 on Wednesday to NPR 18150.0 on Monday.",
+    "monthly_trend": "The monthly spending pattern shows an increase of 50.95% from NPR 22821.5 to NPR 34450.0 and then a further increase of 21.35% to NPR 41805.0.",
+    "category_breakdown": "The spending pattern shows that the highest expenditure is in the Digital Wallet & Transfers category with NPR 23050.0, followed by Shopping with NPR 19200.0, and Healthcare with NPR 17650.0, while the lowest expenditure is in the Personal Care category with NPR 1430.0.",
+    "transactions_timeline": "The transactions show a pattern of regular income of NPR 45000.0 on the 1st of each month, with frequent debits for food and dining, including NPR 150.0 at Perry Dairy, NPR 220.0 at Cafe Caterno, and NPR 310.0 at New Om Veg Momo, as well as debits for groceries, healthcare, and digital wallet transfers, such as NPR 2800.0 at Bhatbhateni Supermarket and NPR 2000.0 at eSewa.",
+    "anomalies": "The pattern of anomalies shows that there are 4 anomalies with amounts of NPR 10000.0, NPR 4200.0, NPR 4500.0, and NPR 5200.0, which are significantly higher than the usual transactions, with the highest anomaly being NPR 10000.0 on 2026-05-15."
+  }
+}
