@@ -8,3 +8,4 @@ groq
 hypothesis
 pytest
 python-dotenv
+python-multipart
