@@ -76,6 +76,25 @@ async def startup_event():
     # Initialize SQLite database and create transactions table
     init_db()
     logger.info("Database initialized successfully")
+    
+    # Pre-warm ChromaDB in background to avoid first-use delay
+    import asyncio
+    asyncio.create_task(prewarm_chromadb())
+
+
+async def prewarm_chromadb():
+    """Pre-initialize ChromaDB after server startup to download models in background."""
+    try:
+        import chromadb
+        from chromadb.utils import embedding_functions
+        
+        logger.info("Pre-warming ChromaDB (downloading sentence-transformers model)...")
+        # This triggers the model download without blocking startup
+        _ = chromadb.Client()
+        _ = embedding_functions.DefaultEmbeddingFunction()
+        logger.info("ChromaDB pre-warm complete")
+    except Exception as e:
+        logger.warning(f"ChromaDB pre-warm failed (will initialize on first use): {e}")
 
 
 if __name__ == "__main__":
